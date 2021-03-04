@@ -15,5 +15,7 @@ namespace CursoMVC.Models
         }
 
         public DbSet<Categoria> Categorias { get; set; }
+
+        public DbSet<Produto> Produtos { get; set; }
     }
 }
